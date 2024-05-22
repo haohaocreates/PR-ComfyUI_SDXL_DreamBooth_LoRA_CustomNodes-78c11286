@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_sdxl_dreambooth_lora_customnodes"
+description = "Nodes:XL DreamBooth LoRA, S3 Bucket LoRA"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["boto3", "gdown", "python-dotenv"]
+
+[project.urls]
+Repository = "https://github.com/komojini/ComfyUI_SDXL_DreamBooth_LoRA_CustomNodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_SDXL_DreamBooth_LoRA_CustomNodes"
+Icon = ""
